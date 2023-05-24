@@ -125,8 +125,8 @@ Write-Host "🔑 Azure Subscription '$AzureSubscriptionID' selected."
 if($LogoURLpng) { 
     Write-Host "📷 Logo image provided"
 	Write-Host "   🔵 Downloading Logo image file"
-    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/CustomerSite/wwwroot/contoso-sales.png"
-    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/AdminSite/wwwroot/contoso-sales.png"
+    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/CustomerSite/wwwroot/causalens-logo.png"
+    Invoke-WebRequest -Uri $LogoURLpng -OutFile "../src/AdminSite/wwwroot/causalens-logo.png"
     Write-Host "   🔵 Logo image downloaded"
 }
 
@@ -134,8 +134,8 @@ if($LogoURLpng) {
 if($LogoURLico) { 
     Write-Host "📷 Logo icon provided"
 	Write-Host "   🔵 Downloading Logo icon file"
-    Invoke-WebRequest -Uri $LogoURLico -OutFile "../src/CustomerSite/wwwroot/favicon.ico"
-    Invoke-WebRequest -Uri $LogoURLico -OutFile "../src/AdminSite/wwwroot/favicon.ico"
+    Invoke-WebRequest -Uri $LogoURLico -OutFile "../src/CustomerSite/wwwroot/favicon.png"
+    Invoke-WebRequest -Uri $LogoURLico -OutFile "../src/AdminSite/wwwroot/favicon.png"
     Write-Host "   🔵 Logo icon downloaded"
 }
 
